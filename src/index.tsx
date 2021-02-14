@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// 1. instalujesz react step wizard:  yarn add react-step-wizard
+// 2. w App.tsx importujesz komponent Wizard i wyświetlasz go (może być na dowolnym miejscu renderowany)
+// 3. w Wizard.tsx importujesz 'StepWizard' i wrzucasz do niego dzieci które będą stepami
+// 4. w stepach masz dostęp do róznych opcji
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +15,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();
