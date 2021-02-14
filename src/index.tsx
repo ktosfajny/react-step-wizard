@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 // 1. instalujesz react step wizard:  yarn add react-step-wizard
 // 2. w App.tsx importujesz komponent Wizard i wyświetlasz go (może być na dowolnym miejscu renderowany)
@@ -16,4 +16,4 @@ ReactDOM.render(
 );
 
 
-reportWebVitals();
+
